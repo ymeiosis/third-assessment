@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0FCBEE2024291A00CE1051 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = CB674E862023F97F0047E153 /* Info.plist */; };
+		CB0FCBF020242AC600CE1051 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FCBEF20242AC600CE1051 /* Property.swift */; };
+		CB0FCBF22024523500CE1051 /* PropertiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FCBF12024523500CE1051 /* PropertiesTableViewCell.swift */; };
+		CB0FCBF42024541F00CE1051 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FCBF32024541F00CE1051 /* DataController.swift */; };
+		CB6594482024144D00B566C4 /* PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6594472024144D00B566C4 /* PropertiesViewController.swift */; };
+		CB65944A2024169000B566C4 /* owners.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6594492024169000B566C4 /* owners.plist */; };
+		CB65944C20241E8900B566C4 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65944B20241E8900B566C4 /* DetailedViewController.swift */; };
 		CB674E782023F97F0047E153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB674E772023F97F0047E153 /* AppDelegate.swift */; };
-		CB674E7A2023F97F0047E153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB674E792023F97F0047E153 /* ViewController.swift */; };
+		CB674E7A2023F97F0047E153 /* OwnerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB674E792023F97F0047E153 /* OwnerListViewController.swift */; };
 		CB674E7D2023F97F0047E153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB674E7B2023F97F0047E153 /* Main.storyboard */; };
-		CB674E802023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB674E7E2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodeld */; };
+		CB674E802023F97F0047E153 /* ThirdAssessmentMei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB674E7E2023F97F0047E153 /* ThirdAssessmentMei.xcdatamodeld */; };
 		CB674E822023F97F0047E153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB674E812023F97F0047E153 /* Assets.xcassets */; };
 		CB674E852023F97F0047E153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB674E832023F97F0047E153 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB674E742023F97F0047E153 /* ThirdAssessment - Mei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThirdAssessment - Mei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0FCBEF20242AC600CE1051 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		CB0FCBF12024523500CE1051 /* PropertiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesTableViewCell.swift; sourceTree = "<group>"; };
+		CB0FCBF32024541F00CE1051 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CB6594472024144D00B566C4 /* PropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesViewController.swift; sourceTree = "<group>"; };
+		CB6594492024169000B566C4 /* owners.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = owners.plist; sourceTree = "<group>"; };
+		CB65944B20241E8900B566C4 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		CB674E742023F97F0047E153 /* ThirdAssessmentMei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdAssessmentMei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB674E772023F97F0047E153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB674E792023F97F0047E153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB674E792023F97F0047E153 /* OwnerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerListViewController.swift; sourceTree = "<group>"; };
 		CB674E7C2023F97F0047E153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB674E7F2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ThirdAssessment___Mei.xcdatamodel"; sourceTree = "<group>"; };
 		CB674E812023F97F0047E153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +53,7 @@
 		CB674E6B2023F97F0047E153 = {
 			isa = PBXGroup;
 			children = (
-				CB674E762023F97F0047E153 /* ThirdAssessment - Mei */,
+				CB674E762023F97F0047E153 /* ThirdAssessmentMei */,
 				CB674E752023F97F0047E153 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +61,37 @@
 		CB674E752023F97F0047E153 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB674E742023F97F0047E153 /* ThirdAssessment - Mei.app */,
+				CB674E742023F97F0047E153 /* ThirdAssessmentMei.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB674E762023F97F0047E153 /* ThirdAssessment - Mei */ = {
+		CB674E762023F97F0047E153 /* ThirdAssessmentMei */ = {
 			isa = PBXGroup;
 			children = (
 				CB674E772023F97F0047E153 /* AppDelegate.swift */,
-				CB674E792023F97F0047E153 /* ViewController.swift */,
+				CB0FCBF32024541F00CE1051 /* DataController.swift */,
+				CB674E792023F97F0047E153 /* OwnerListViewController.swift */,
 				CB674E7B2023F97F0047E153 /* Main.storyboard */,
+				CB0FCBEF20242AC600CE1051 /* Property.swift */,
+				CB65944B20241E8900B566C4 /* DetailedViewController.swift */,
+				CB0FCBF12024523500CE1051 /* PropertiesTableViewCell.swift */,
+				CB6594472024144D00B566C4 /* PropertiesViewController.swift */,
 				CB674E812023F97F0047E153 /* Assets.xcassets */,
 				CB674E832023F97F0047E153 /* LaunchScreen.storyboard */,
+				CB6594492024169000B566C4 /* owners.plist */,
 				CB674E862023F97F0047E153 /* Info.plist */,
-				CB674E7E2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodeld */,
+				CB674E7E2023F97F0047E153 /* ThirdAssessmentMei.xcdatamodeld */,
 			);
-			path = "ThirdAssessment - Mei";
+			path = ThirdAssessmentMei;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB674E732023F97F0047E153 /* ThirdAssessment - Mei */ = {
+		CB674E732023F97F0047E153 /* ThirdAssessmentMei */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB674E892023F97F0047E153 /* Build configuration list for PBXNativeTarget "ThirdAssessment - Mei" */;
+			buildConfigurationList = CB674E892023F97F0047E153 /* Build configuration list for PBXNativeTarget "ThirdAssessmentMei" */;
 			buildPhases = (
 				CB674E702023F97F0047E153 /* Sources */,
 				CB674E712023F97F0047E153 /* Frameworks */,
@@ -82,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = "ThirdAssessment - Mei";
+			name = ThirdAssessmentMei;
 			productName = "ThirdAssessment - Mei";
-			productReference = CB674E742023F97F0047E153 /* ThirdAssessment - Mei.app */;
+			productReference = CB674E742023F97F0047E153 /* ThirdAssessmentMei.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB674E6F2023F97F0047E153 /* Build configuration list for PBXProject "ThirdAssessment - Mei" */;
+			buildConfigurationList = CB674E6F2023F97F0047E153 /* Build configuration list for PBXProject "ThirdAssessmentMei" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB674E732023F97F0047E153 /* ThirdAssessment - Mei */,
+				CB674E732023F97F0047E153 /* ThirdAssessmentMei */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB65944A2024169000B566C4 /* owners.plist in Resources */,
 				CB674E852023F97F0047E153 /* LaunchScreen.storyboard in Resources */,
 				CB674E822023F97F0047E153 /* Assets.xcassets in Resources */,
 				CB674E7D2023F97F0047E153 /* Main.storyboard in Resources */,
@@ -139,8 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB674E802023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodeld in Sources */,
-				CB674E7A2023F97F0047E153 /* ViewController.swift in Sources */,
+				CB0FCBF22024523500CE1051 /* PropertiesTableViewCell.swift in Sources */,
+				CB0FCBF020242AC600CE1051 /* Property.swift in Sources */,
+				CB0FCBEE2024291A00CE1051 /* Info.plist in Sources */,
+				CB674E802023F97F0047E153 /* ThirdAssessmentMei.xcdatamodeld in Sources */,
+				CB0FCBF42024541F00CE1051 /* DataController.swift in Sources */,
+				CB6594482024144D00B566C4 /* PropertiesViewController.swift in Sources */,
+				CB65944C20241E8900B566C4 /* DetailedViewController.swift in Sources */,
+				CB674E7A2023F97F0047E153 /* OwnerListViewController.swift in Sources */,
 				CB674E782023F97F0047E153 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +306,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZB2T23E2Q;
-				INFOPLIST_FILE = "ThirdAssessment - Mei/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ThirdAssessmentMei/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mei.ThirdAssessment---Mei";
+				PRODUCT_BUNDLE_IDENTIFIER = mei.ThirdAssessmentMei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,9 +321,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZB2T23E2Q;
-				INFOPLIST_FILE = "ThirdAssessment - Mei/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ThirdAssessmentMei/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mei.ThirdAssessment---Mei";
+				PRODUCT_BUNDLE_IDENTIFIER = mei.ThirdAssessmentMei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB674E6F2023F97F0047E153 /* Build configuration list for PBXProject "ThirdAssessment - Mei" */ = {
+		CB674E6F2023F97F0047E153 /* Build configuration list for PBXProject "ThirdAssessmentMei" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB674E872023F97F0047E153 /* Debug */,
@@ -316,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB674E892023F97F0047E153 /* Build configuration list for PBXNativeTarget "ThirdAssessment - Mei" */ = {
+		CB674E892023F97F0047E153 /* Build configuration list for PBXNativeTarget "ThirdAssessmentMei" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB674E8A2023F97F0047E153 /* Debug */,
@@ -328,13 +354,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CB674E7E2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodeld */ = {
+		CB674E7E2023F97F0047E153 /* ThirdAssessmentMei.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				CB674E7F2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodel */,
 			);
 			currentVersion = CB674E7F2023F97F0047E153 /* ThirdAssessment___Mei.xcdatamodel */;
-			path = "ThirdAssessment___Mei.xcdatamodeld";
+			path = ThirdAssessmentMei.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

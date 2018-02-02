@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C205" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Owners" representedClassName="Owners" syncable="YES" codeGenerationType="class">
+        <attribute name="owners" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="own" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Properties" syncable="YES"/>
+    </entity>
+    <entity name="Properties" representedClassName="Properties" syncable="YES" codeGenerationType="class">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="owners" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Properties" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Owners" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Properties" positionX="306" positionY="-0" width="128" height="103"/>
+    </elements>
+</model>
